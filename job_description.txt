@@ -1,0 +1,8 @@
+We are looking for an AI inter.
+
+Required skills:
+
+Python
+SQL
+Machine Learning
+Git
