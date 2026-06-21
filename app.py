@@ -1,6 +1,5 @@
 import streamlit as st
 import tempfile
-import matplotlib.pyplot as plt
 
 from extractor import extract_text
 from extractor import extract_email
@@ -55,22 +54,6 @@ if uploaded_file is not None:
 
         st.success(skill)
         
-st.subheader("📊 Skills Distribution")
-
-if skills:
-
-    values = [1] * len(skills)
-
-    fig, ax = plt.subplots()
-
-    ax.pie(
-        values,
-        labels=skills,
-        autopct='%1.0f%%'
-    )
-
-    st.pyplot(fig)
-
     # Read Job Description
 
     with open("job_description.txt", "r") as f:
