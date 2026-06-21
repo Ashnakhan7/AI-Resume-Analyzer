@@ -1,8 +1,11 @@
-We are looking for an AI inter.
+We are looking for an AI Intern.
 
-Required skills:
+Required Skills:
 
 Python
 SQL
 Machine Learning
 Git
+Pandas
+NumPy
+C++
